@@ -10,8 +10,8 @@ function createWindow() {
     // }
   });
 
-  win.loadFile('./dist/index.html');
-  // win.loadURL("http://localhost:8000");
+  //   win.loadFile('./dist/index.html');
+  win.loadURL('http://localhost:8000');
 }
 
 app.whenReady().then(() => {
